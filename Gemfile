@@ -1,7 +1,7 @@
 disable_system_gems
 
 sources.clear
-source "file://#{ENV['HOME']}/tmp/gem_repo"
+source "file://#{ENV['GEM_REPO']}"
 
 gem "rack", "=1.0.1"
 gem "mongrel", "=1.1.5"
